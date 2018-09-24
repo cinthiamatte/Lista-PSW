@@ -25,10 +25,5 @@ public class Entrada{
 	public void defer() {
 		aux = resultado;
 		objeto.defer(aux);
-
-	}
-	
-	public String toString2() {
-		return String.format("\nDifereça entre Local e Usuario: %d", aux);
 	}
 }

@@ -14,8 +14,5 @@ public class Principal {
 		ent.Enter();
 		ent.defer();
 		System.out.printf(ent.toString());
-		System.out.printf(ent.toString2());
-		
-		
 	}
 }

@@ -14,14 +14,16 @@ public class Objetos {
 	public void dif() {
 		res2 = val - valor;
 	}
+		
+	public String toString() {
+	return String.format("Valor da Soma local: %d "
+			+ "\nValor da Diferença local: %d", res1, res2);
+	}
 	
 	public int defer(int res) {
 		res = res - (val+valor);
+		System.out.println("\nValor da diferença Local com Usuario:");
+		System.out.print(res);
 		return res;
-	}
-	
-	
-	public String toString() {
-	return String.format("\n\nValor da Soma local: %d \nValor da Diferença local: %d", res1, res2);
 	}
 }
